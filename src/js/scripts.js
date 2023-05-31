@@ -14,11 +14,11 @@ const jump = () => {
 
 function pegarAlturaAleatoria() {
   CANO_ALTO = '110px';
-  CANO_MÉDIO = '85px';
+  CANO_MEDIO = '85px';
   CANO_BAIXO = '50px';
 
   // Criar essa lista é importante pra escolher a altura aleatória
-  let alturas = [CANO_ALTO, CANO_MÉDIO, CANO_BAIXO];
+  let alturas = [CANO_ALTO, CANO_MEDIO, CANO_BAIXO];
 
   // Pega um número aleatório entre 0 e o número de alturas
   let alturaEscolhida = Math.floor(Math.random() * alturas.length);
